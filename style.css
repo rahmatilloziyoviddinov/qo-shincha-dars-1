@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    width: 400px;
+    height: 450px;
+    background-color: gainsboro;
+
+}
+.cardimg{
+    width: 100%;
+    height: 50%;
+    background-color: darkcyan;
+    position: relative;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+i:nth-child(2){
+    position: absolute;
+    /* z-index: 1; */
+    color: red;
+    /* border: 2px solid red; */
+    font-size: 28px;
+    top: 195px;
+    left: 5px;
+}
+i:nth-child(3){
+    position: absolute;
+    /* z-index: 1; */
+    color: blue;
+    /* border: 2px solid red; */
+    font-size: 28px;
+    top: 195px;
+    left: 40px;
+}
+i:nth-child(4){
+    position: absolute;
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 28px;
+    top: 195px;
+    left: 75px;
+}
+i:nth-child(5){
+    position: absolute;
+    color: red;
+    /* border: 2px solid red; */
+    font-size: 28px;
+    top: 195px;
+    left: 5px;
+}
+i:nth-child(2):hover{
+    color: transparent;
+    transform: rotate(45deg);
+}
+i:nth-child(5):hover{
+    z-index: 1;
+}
